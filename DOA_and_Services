@@ -6,4 +6,14 @@ A DAO is a way to communicate a database
 Services are the way to use the data and perform logic on the Data pulled.
 
 
-More examples will be provided
+DAO
+| 
+\/
+DAOImpl
+
+Service
+|
+\/
+ServiceImpl
+
+//Class uses Service
