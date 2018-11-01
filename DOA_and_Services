@@ -1,10 +1,8 @@
 Let's explore Services and DAOs.
 
+A Data Access Object(DAO) is the messenger to and from your database
 
-A DAO is a way to communicate a database
-
-Services are the way to use the data and perform logic on the Data pulled.
-
+Services are commands you want to do with that data
 
 DAO
 | 
@@ -17,5 +15,7 @@ Service
 ServiceImpl
 
 //Class uses Service
+DOA Strictly For Data Querying
+Services Strictly for Logic and Manipulation
 
-Let's learn about separation of powers
+Understanding the stream will help any developer in debugging and maintaing large applications 
