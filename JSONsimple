@@ -1,0 +1,34 @@
+JSON is an easy way to show data from SQL tables
+
+{
+  "user_id": 123, 
+  "first_name": "arthur",
+  "last_name": "morgan",
+    "positions": [
+                  {
+                    job_title: "gunslinger",
+                    organization: "van der linde gang"
+                  },
+                  {
+                    job_title: "keeper",
+                    organization: "van der linde gang"
+                   }
+                ],
+  "summary" : "good dude"
+
+
+}
+
+
+
+
+|---------------------------------|
+|              Users              |
+|---------------------------------|
+| ID  | First Name  | Last Name   |
+|-----|-------------|-------------|
+|     |             |             |
+| 123 |   Arthur    |  Morgan     |
+|     |             |             |
+|     |             |             |
+-----------------------------------
